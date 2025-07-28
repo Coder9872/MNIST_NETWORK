@@ -1,0 +1,8 @@
+LEARNING_RATE = 0.001
+PIXELS = 784
+NUM_LAYERS = 3 #non input layers    
+TRAINING = True
+#nodes/layer
+LAYER_SIZES = [64, 32, 10]
+BATCH_SIZE=100
+EPOCHS = 20
