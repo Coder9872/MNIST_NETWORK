@@ -59,4 +59,3 @@ for i in range(EPOCHS):
     epoch_accuracy.append(np.mean(batch_accuracy[-num_batches:]))
     epoch_loss.append(np.mean(batch_loss[-num_batches:]))
     print(f"Epoch {i+1} Complete - Accuracy: {epoch_accuracy[-1]}, Loss: {epoch_loss[-1]}")
-
